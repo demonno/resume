@@ -10,3 +10,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: demur_nodia.tex
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: demur_nodia.pdf
+          path: demur_nodia.pdf

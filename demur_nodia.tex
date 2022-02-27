@@ -53,9 +53,9 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
+\newcommand{\resumeItem}[1]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    #1 \vspace{-2pt}
   }
 }
 
@@ -107,41 +107,38 @@ Senior Software Engineer specialized in backend technologies. Interested in cont
       {\href{https://paxful.com}{\underline{Paxful}}}{Tallinn, Estonia}
       {Lead Software Engineer}{Tallinn, Estonia (Oct 2021 - Present(5 Months+)}
       \resumeItemListStart
-        \resumeItem{Domain}
-          {OAuth2 Service, API Gateway, SMS, Email, 2FA, OTP Services, internal  python libraries.}
-        \resumeItem{Processes}
-          {Following continues delivery approach while software development, using TDD. While having more than 12 servcices in scope, managed communication with other teams who, integrate with our services. Standardied CI/CD pipelines by making. Set and encouriged minimum code quality standards.}
+        \resumeItem{Was responsible for existing ecosystem, which included 12+ microservices.}
+        \resumeItem{\href{http://accounts.paxful.com/}{OAuth2 Service}, API Gateway, Internal admin tool, SMS, Email, 2FA, OTP Services, internal  python libraries.}
+        \resumeItem{Managed communications with teams, supported integrations with our services. Standardized CI/CD pipelines.}
+        \resumeItem{Set and encouraged minimum code quality standards in the team.}
       \resumeItemListEnd
 
 \resumeSubheading
       {\href{https://paxful.com}{\underline{Paxful}}}{Tallinn, Estonia}
       {Senior Software Engineer}{Feb 2020 - May 2021 (1 year 3 months)}
       \resumeItemListStart
-        \resumeItem{Domain}{While being part of the process towards transitioning to microservices architecture, I have worked on some of the fundamential services which solved issues related to unifing Localisation for all products in the company and provided support and guideines for integration. Developers portal and Internal administration tool built using django admin.}
-        \resumeItem{Team}
-          {As a member of an agile team(~8) has been involved in building and maintaining microservices in python, using async stack \textbf{python}, \textbf{FastAPI}, \textbf{Postgresql}.}
-        \resumeItem{Infrastructure}
-          {AWS, Kubernetes, Helm, Docker, Gitlab CI, Sentry, Elastic stack, prometheus and grafana.}
+	   \resumeItem{As a member of an agile team, implemented microservices, using async stack: \textbf{python, FastAPI, Postgresql}.}
+        \resumeItem{Participated in the initial process of transitioning towards microservices architecture.}
+        \resumeItem{Worked on Localisation Service and supported overall microsevrice infrastructure by contributing to internal tools, libraries, and microservices.}
+        \resumeItem{Implemented \href{https://developers.paxful.com/}{Developers porta} backend with integration to other internal services.}
+        \resumeItem{With full service ownership mindest, worked with technologies: \textbf{AWS, Kubernetes, Helm, Docker, Gitlab CI, Sentry, Elastic stack, Prometheus and Grafana}.}
       \resumeItemListEnd
 	
     \resumeSubheading
       {\href{https://namespace.ee}{\underline{Namespace}}}{Tallinn, Estonia}
       {Software Engineer}{Jun 2017 - Dec 2019 (2 years 7 months)}
       \resumeItemListStart
-        \resumeItem{Domain}
-          {Fleet tracking/management. Real time vehicle tracking and data processing. Reporting and management software.}
-		\resumeItem{Stack}
-          {Worked on backend technologies, \textbf{Python, Django, Postgresql, PostGIS, Redis, Spark, Scala, Kafka.}}
+        \resumeItem{Worked on fleet tracking/management software. Which provided real time vehicle tracking, reporting and management possibilities.}
+		\resumeItem{Worked on backend technologies, \textbf{Python, Django, Postgresql, PostGIS, Redis, Spark, Scala, Kafka.}}
       \resumeItemListEnd
 
     \resumeSubheading
       {\href{http://innotec.ge/}{\underline{Innotec}}}{Georgia, Tbilisi}
       {Software Developer/ Team Lead}{May 2011 - Jul 2016 (5 years 3 months)}
       \resumeItemListStart
-        \resumeItem{Domain}
-          {Worked on building software for Banking, Insurance, Transportation, Advertising industries. Was involved in full sycle of softwere development started from meetings with clients, setting up technical assignments }
-        \resumeItem{Stack}
-          {\textbf{Java, Hibernate, Spring, Python, Django, Android}}
+        \resumeItem{Had a long journey in Inontec starting as a Junior Developer and ending as a Team Lead.
+Worked on full-cycle software development for Banking, Insurance, Transportation, Advertising industries. Meeting with clients, creating technical assignments delivering software, and in some cases conducting trainings for the users.}
+        \resumeItem{Used technologies: \textbf{Java, Hibernate, Spring, Python, Django, Android, Linux, Windows}.}
       \resumeItemListEnd
       
      \resumeSubheading
@@ -183,4 +180,7 @@ Senior Software Engineer specialized in backend technologies. Interested in cont
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
+
+\textit{Source of this resume is availabe at} \href{https://github.com/demonno/resume}{\underline{github.com/demonno/resume}}
+
 \end{document}

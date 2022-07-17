@@ -3,4 +3,5 @@
 *.gz
 *.out
 *.directory
-*.pdf
+*.fls
+*.fdb_latexmk
